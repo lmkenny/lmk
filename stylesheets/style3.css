@@ -1,0 +1,178 @@
+@font-face {
+  font-family: Euclid Light;
+  src: url(../fonts/EuclidFlex-Light.otf);
+}
+@font-face {
+  font-family: Euclid Regular;
+  src: url(../fonts/EuclidFlex-Regular.otf);
+}
+@font-face {
+  font-family: Euclid Medium;
+  src: url(../fonts/EuclidFlex-Medium.otf);
+}
+@font-face {
+  font-family: Euclid Bold;
+  src: url(../fonts/EuclidFlex-Bold.otf);
+}
+.anon-font{
+  font-family: Anonymous Pro;
+}
+.bold{
+  font-family: Euclid Bold;
+}
+.reg{
+  font-family: Euclid Regular;
+}
+.light{
+  font-family: Euclid Light;
+}
+.img-title{
+  background-color: white;
+  color: #3626A7;
+  transition: .3s ease;
+}
+.text{
+  transition: .3s ease;
+}
+body{
+  font-family: Euclid Light;
+  font-size: 16px;
+  line-height: 1.65;
+  scroll-behavior: smooth;
+  color: #3626A7;
+}
+h1{
+  font-family: Euclid Bold;
+  font-size: 48px;
+  line-height: 1;
+}
+h2{
+  font-family: Euclid Bold;
+  font-size: 25px;
+  line-height: 1;
+}
+h3{
+  font-family: Euclid Regular;
+  font-size: 20px;
+  line-height: 1;
+}
+a {
+  color: #3626A7;
+  font-family: Euclid Regular;
+  text-decoration: none;
+  transition: 0.1s;
+}
+a:visited{
+  color: #3626A7;
+}
+.w-95{
+  width: 94%;
+}
+.link>a{
+  font-family: Euclid Light;
+  padding-bottom: 1.1rem;
+}
+.link>a:hover{
+  border-bottom: solid 4px #FFBFC3;
+}
+.selected{
+  border-bottom: solid 4px #FFBFC3;
+}
+.header-link{
+  height: 1.6rem;
+  cursor: pointer;
+  border-width: 0px;
+  transition: 0.1s;
+}
+.header-link:hover{
+  border-bottom: solid 4px #FFBFC3;
+}
+.image-placeholder{
+  width: 100%;
+  padding: 0.5rem;
+  background-color: white;
+}
+.brazo{
+  background-image: url(../images/brazo.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 33rem;
+  height: 33rem;
+}
+.one-and-zero{
+  background-image: url(../images/web-surveillance.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 32rem;
+  height: 18rem;
+}
+.cantina-rotino{
+  background-image: url(../images/cantina-rotino.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 32rem;
+  height: 18rem;
+}
+.mitimes-app{
+  background-image: url(../images/mitimes-interface.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 32rem;
+  height: 18rem;
+}
+.dom-and-the-wizards{
+  background-image: url(../images/wizards-7.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 38rem;
+  height: 20rem;
+}
+.elderidge-wines{
+  background-image: url(../images/elderidge-wine.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 38rem;
+  height: 20rem;
+}
+.super-free{
+  background-image: url(../images/super-free.png);
+  background-repeat: no-repeat;
+  background-position: center -330px;
+  background-size: 36rem;
+  height: 20rem;
+}
+.terrace-house{
+  background-image: url(../images/terrace-illustration.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 34rem;
+  height: 20rem;
+}
+.blue-block{
+  height: 16rem;
+  background-color: #3626A7;
+  width: 48.5%
+}
+@media (min-width: 576px) {
+}
+@media (min-width: 768px){
+  .w-2-col{
+    width: 46.5%;
+  }
+}
+@media (min-width: 992px){
+  .img-title{
+    height: 0;
+  }
+  .w-2-col{
+    width: 100%;
+  }
+  .image:hover > .img-title {
+    height: 3rem;
+  }
+  .image:hover  .text {
+    opacity: 1;
+  }
+}
+@media (min-width: 1200px) {
+}
