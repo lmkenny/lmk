@@ -34,12 +34,19 @@
 .text{
   transition: .3s ease;
 }
+html{
+  background-color: #3626A7;
+}
 body{
+  margin: auto;
+  max-width: 1900px;
   font-family: Euclid Regular;
   font-size: 17px;
   line-height: 1.8;
   scroll-behavior: smooth;
   color: #3626A7;
+  background-color: white;
+  box-shadow: 2px 4px 10px black;
 }
 h1{
   font-family: Euclid Bold;
