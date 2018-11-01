@@ -194,6 +194,17 @@ a:visited{
   .image:hover  .text {
     opacity: 1;
   }
+  .text-container{
+    max-width: 28rem;
+  }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1030px) {
+  .text-container{
+    max-width: 30rem;
+  }
+}
+@media (min-width: 1340px) {
+  .text-container{
+    max-width: 40rem;
+  }
 }
