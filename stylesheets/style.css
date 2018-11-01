@@ -95,71 +95,8 @@ a:visited{
 .header-link:hover{
   border-bottom: solid 4px #FFBFC3;
 }
-.image-placeholder{
-  width: 100%;
-  padding: 0.5rem;
-  background-color: white;
-}
-.brazo{
-  background-image: url(../images/brazo.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 33rem;
-  height: 33rem;
-}
-.one-and-zero{
-  background-image: url(../images/web-surveillance.gif);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 32rem;
-  height: 18rem;
-}
-.cantina-rotino{
-  background-image: url(../images/cantina-rotino.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 32rem;
-  height: 18rem;
-}
-.mitimes-app{
-  background-image: url(../images/mitimes-interface.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 32rem;
-  height: 18rem;
-}
-.dom-and-the-wizards{
-  background-image: url(../images/wizards-7.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 38rem;
-  height: 20rem;
-}
-.elderidge-wines{
-  background-image: url(../images/elderidge-wine.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 38rem;
-  height: 20rem;
-}
-.super-free{
-  background-image: url(../images/super-free.png);
-  background-repeat: no-repeat;
-  background-position: center -330px;
-  background-size: 36rem;
-  height: 20rem;
-}
-.terrace-house{
-  background-image: url(../images/terrace-illustration.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 34rem;
-  height: 20rem;
-}
-.blue-block{
-  height: 16rem;
-  background-color: #3626A7;
-  width: 48.5%
+.hightlight-text:hover{
+  color: #FFBFC3;
 }
 .video-container {
     position: relative;
