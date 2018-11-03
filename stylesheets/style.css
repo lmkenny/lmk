@@ -161,6 +161,18 @@ img {
     grid-column-gap: 2rem;
     grid-row-gap: 2rem;
   }
+  .brazo-grid{
+    grid-template-rows: auto auto;
+    grid-column-gap: 1.4vw;
+    grid-row-gap: 1.4vw;
+  }
+  .span-2{
+    grid-row: span 2
+  }
+  .brazo-3{
+    grid-column: 2;
+    grid-row: 2/3;
+  }
 }
 @media (min-width: 1030px) {
   .text-container{
