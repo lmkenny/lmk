@@ -38,6 +38,7 @@ html{
   background-color: #3626A7;
 }
 body{
+  margin: auto;
   max-width: 1900px;
   min-height: 100vh;
   font-family: Euclid Regular;
