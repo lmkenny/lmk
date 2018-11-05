@@ -59,7 +59,7 @@ h1{
 }
 h2{
   font-family: Euclid Bold;
-  font-size: 25px;
+  font-size: 30px;
   line-height: 1;
 }
 h3{
@@ -107,7 +107,6 @@ a:visited{
 .video-container {
     position: relative;
     width: 100%;
-  
     padding-bottom: 56.25%;
 }
 .video {
