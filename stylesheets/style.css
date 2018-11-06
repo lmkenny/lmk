@@ -173,6 +173,10 @@ a:visited{
     grid-column-gap: 2rem;
     grid-row-gap: 2rem;
   }
+  .wattle-grid{
+    grid-column-gap: 1.3vw;
+    grid-row-gap: 1.3vw;
+  }
   .brazo-grid{
     grid-template-rows: auto auto;
     grid-column-gap: 1.4vw;
