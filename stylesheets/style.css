@@ -92,6 +92,9 @@ a:visited{
 .selected{
   border-bottom: solid 4px #FFBFC3;
 }
+.bg-lmk-pink{
+  background-color: #FFBFC3;
+}
 .header-link{
   height: 1.6rem;
   cursor: pointer;
@@ -103,6 +106,14 @@ a:visited{
 }
 .hightlight-text:hover{
   color: #FFBFC3;
+}
+.inline-link{
+  border-bottom: solid 4px #FFBFC3;
+  transition: .2s;
+}
+.inline-link:hover{
+  color: #faa1a7;
+  border-bottom-width: 2px;
 }
 .video-container {
     position: relative;
